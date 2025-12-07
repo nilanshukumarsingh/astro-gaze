@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+.tmp/
+.cache/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite / Next / Nuxt / React
+.vite/
+.next/
+.nuxt/
+.output/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Package manager lock artifacts (optional, ignore if you want reproducible builds)
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.old
+*.orig
+
+# Misc
+*.local
+.repl/
+.eslintcache
+.stylelintcache
+
+# Docker
+docker-compose.override.yml
+
+# Storybook
+storybook-static/
+
+# Turbo / Monorepos
+.turbo/

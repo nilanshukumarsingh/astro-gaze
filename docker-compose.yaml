@@ -1,0 +1,7 @@
+services:
+  web:
+    image: ghcr.io/nilanshukumarsingh/astro-gaze:latest
+    container_name: react_app
+    ports:
+      - '20000:80'
+    restart: always
